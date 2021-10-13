@@ -1,8 +1,8 @@
 # Order Processing Example
 This is a simple producer/consumer example of processing events from Azure Event Hubs with Azure Functions.
 
-# Setup
-## Local
+## Setup
+### Local
 Ensure you include a `local.settings.json` file with the following properties:
 ```json
     {
@@ -15,5 +15,5 @@ Ensure you include a `local.settings.json` file with the following properties:
         }
     }
 ```
-# Deployed
+### Deployed
 Ensure you include app settings that correspond to the above values section of the local.settings.json file.
